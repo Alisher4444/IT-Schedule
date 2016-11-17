@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="*"
+    tools:context="temirbekia.ru.it_schedule.structure.TeacherSchedule">
+
+
+    <TableRow>
+        <TextView android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_span="3"
+            android:text="Расписание"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Время"/>
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Группы"/>
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="Кабинет"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="@string/time1"/>
+        <TextView
+            android:id="@+id/group_column1"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="IS-145"/>
+        <TextView
+            android:id="@+id/teacher_room1"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="604"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="@string/time2"/>
+
+        <TextView
+            android:id="@+id/group_column2"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="MKM-144"/>
+        <TextView
+            android:id="@+id/teacher_room2"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="604"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="@string/time3"/>
+        <TextView
+            android:id="@+id/group_column3"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="CSSE-144"/>
+        <TextView
+            android:id="@+id/teacher_room3"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="404"/>
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="@string/time4"/>
+        <TextView
+            android:id="@+id/group_column4"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+        <TextView
+            android:id="@+id/teacher_room4"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="@string/time5"/>
+        <TextView
+            android:id="@+id/group_column5"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text=""/>
+        <TextView
+            android:id="@+id/teacher_room5"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text=""/>
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="@string/time6"/>
+
+        <TextView
+            android:id="@+id/group_column6"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/teacher_room6"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="@string/time7"/>
+
+        <TextView
+            android:id="@+id/group_column7"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="IS-1501"
+             />
+
+        <TextView
+            android:id="@+id/teacher_room7"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="204"/>
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="@string/time8"/>
+        <TextView
+            android:id="@+id/group_column8"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="MKM-142"/>
+
+
+        <TextView
+            android:id="@+id/teacher_room8"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="401"/>
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="@string/time9"/>
+        <TextView
+            android:id="@+id/group_column9"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="Android"/>
+
+        <TextView
+            android:id="@+id/teacher_room9"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="404"/>
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="@string/time10"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:id="@+id/group_column10"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/teacher_room10"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="@string/time11"/>
+        <TextView
+            android:id="@+id/group_column11"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text=""/>
+
+
+        <TextView
+            android:id="@+id/teacher_room11"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text=""/>
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text="@string/time12"
+            />
+
+        <TextView
+            android:id="@+id/group_column12"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/teacher_room12"
+            android:background="@color/colorPrimary"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:text=""/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text="@string/time13"/>
+
+        <TextView
+            android:id="@+id/group_column13"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text=""/>
+        <TextView
+            android:id="@+id/teacher_room13"
+            android:background="#F5F5F5"
+            android:layout_margin="1dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#212121"
+            android:gravity="center_horizontal"
+            android:text=""/>
+    </TableRow>
+
+
+
+
+</TableLayout>

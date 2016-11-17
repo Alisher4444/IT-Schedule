@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="temirbekia.ru.it_schedule">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".structure.ChooseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".structure.Teachers"
+            android:label="@string/app_teacher">
+        </activity>
+
+
+
+        <activity
+            android:name=".structure.Students"
+            android:label="@string/app_students">
+        </activity>
+
+        <activity
+            android:name=".structure.Schedule"
+            android:label="@string/app_schedule">
+        </activity>
+
+        <activity
+            android:name=".structure.ScheduleOne"
+            android:label="@string/app_schedule_one">
+            
+        </activity>
+        
+        <activity
+            android:name=".structure.StudentSchedule"
+            android:label="@string/app_table_student">
+        </activity>
+
+        <activity
+            android:name=".structure.TeacherSchedule"
+            android:label="@string/app_table_teacher">
+        </activity>
+
+
+    </application>
+
+</manifest>

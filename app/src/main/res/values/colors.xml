@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3855E9</color>
+    <color name="colorPrimaryDark">#3855E9</color>
+
+    <color name="tableColor">#425DDF</color>
+
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#3B4443</color>
+
+
+
+    <!-- color of background activity -->
+    <color name="colorRedBlack">#191B1B</color>
+    <color name="colorBackground">#F6EAEA</color>
+
+</resources>
